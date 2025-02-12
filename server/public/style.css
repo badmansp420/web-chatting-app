@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+    width: 1px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    /* background-color: #ebbcbc; */
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 82vh;
+    width: 400px;
+    background-color: #ebbcbc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.messages {
+    padding: 10px;
+    margin: auto;
+    width: 350px;
+    height: 70dvh;
+    overflow-y: scroll;
+    border: 1px solid #a85b5b;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.messages-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #a85b5b;
+    color: white;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #a85b5b;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.send-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
